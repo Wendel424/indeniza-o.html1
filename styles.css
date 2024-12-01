@@ -1,0 +1,205 @@
+/*Gerais*/
+body {
+   font-family: 'Roboto', sans-serif; 
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+   collor: #014141; 
+   font-size: 14px;
+}
+
+/*Barra de navegação*/
+header, .navbar {
+    brackground-color: #918f8f;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;  
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #008000;
+}
+
+.navbar-brand:hover {
+    color: #918f8f;
+}
+
+#navbar-links a {
+    color: #014141;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/*Slider*/
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+/* Sobre a empresa */
+#about-area {
+    background-color: #dedcdc;
+}
+
+.main-title {
+    color: #032e2e;
+    margin: 0 0 65px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 20px;
+    color: #032e2e;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #014141;
+    margin-right: 15px;
+}
+
+/*Especialidades*/
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #032e2e;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #06d0d0;
+}
+
+/*Equipe*/
+.card-body {
+    text-align: center;
+}
+
+/*Fotter*/
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #06d0d0;
+}
+
+.contact-box i {
+    color: #032e2e;
+    border: solid 1px #032e2e;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #188585;
+}
+
+#msg-box p{
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;    
+}
+
+#contact-form .main-btn:hover {
+ color: #188585;   
+}
+
+/*Copy*/
+
+#copy-area {
+    color: #224444;
+}
+
+#copy-area .container{
+    padding: 10px 0;
+text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+/*responsive*/
+
+@media(max-widht: 768px) {
+    /*geral*/
+    .container {
+        padding: 20px 0;
+    }
+
+    /*slides*/
+    #mainSlider .carousel-inner, #maislide .carousel-item {
+        height: auto;
+    }
+    
+}
