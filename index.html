@@ -32,28 +32,30 @@
 </head>
 <body>
     <header> 
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed top navbar-dark">
-                <a href="#" class="navbar-brand">
-                  <img id="logo" src="imgClinica/Logo.png" alt="LoFisio"> LoFisio 
-                </a>               
+        <nav id="navbar" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="imgClinica/Logo.png" alt="LoFisio"> LoFisio 
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-bar-links" 
-                aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                <div class="navbar-nav">
-                 <a class="nav-item nav-link" id="home-menu">Home</a>
-                 <a class="nav-item nav-link" id="about-menu">Sobre nós</a>
-                 <a class="nav-item nav-link" id="services-menu">Especialidades</a>
-                 <a class="nav-item nav-link" id="team-menu">Equipe</a>
-                 <a class="nav-item nav-link" id="contact-menu">Contatos</a>   
-                </div>
-            </div>
-            </nav>
-        </div>
-    </header>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#home-menu">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-area">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service-area">Especialidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team-area">Equipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-area">Contato</a>
+              </li>
+              
+            </ul>
+          </nav>
+            </header>
     <main>
         <!-- Carrossel Banner-->
         <div class="container-fluid">
@@ -97,7 +99,7 @@
                   </div>
         <!-- Sobre a empresa-->
         <div id="about-area">
-            <div class="container">
+            <div class="container" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="main-title">Sobre a LoFisio</h3>
@@ -156,7 +158,7 @@
         </div>
     </div>
     <!--Equipe-->
-    <div id="team.area">
+    <div id="team-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -215,9 +217,29 @@
                 </div>
             </div>
 
+    </div>
+    <!--Avaliações-->
+    <div id="assessment-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md 12">
+                    <h3 class="main-title">O que nossos pacientes tem a dizer</h3>
+                </div>
+                <div class="col-md-12" id="filter-btn-box">
+                    <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                    <button class="main-btn filter-btn" id="orto-btn">Ortopedia</button>
+                    <button class="main-btn filter-btn" id="pel-btn">Pélvica</button>
+                    <button class="main-btn filter-btn" id="resp-btn">Respiratória</button>
+                    <button class="main-btn filter-btn" id="ped-btn">Pediátrica</button>
+                    <button class="main-btn filter-btn" id="pil-btn">Pilates</button>
+                </div>
+                <div class="col-md-4 project-box orto">
+                    
+                </div>
+            </div>
         </div>
-
-    </div> 
+    </div>
+</div> 
     </main>
     <!--Rodapé-->
     <footer>
