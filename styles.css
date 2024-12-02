@@ -201,5 +201,25 @@ text-align: center;
     #mainSlider .carousel-inner, #maislide .carousel-item {
         height: auto;
     }
+ 
+    .carouselExampleCaptions {
+        left: 10%;
+        right: 10%;
+
+    }
+    
+    /*About*/
+    #about-area img {
+        margin-top: 100px;
+    }
+
+    /*Team*/
+    .card.title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
     
 }
