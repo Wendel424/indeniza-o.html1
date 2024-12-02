@@ -27,7 +27,7 @@ header, .navbar {
 }
 
 #logo {
-    width: 75px;  
+    width: 20px;  
 }
 
 .navbar-brand {
@@ -91,7 +91,7 @@ header, .navbar {
 
 #about-list i {
     color: #014141;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 /*Especialidades*/
