@@ -12,13 +12,13 @@ body {
 }
 
 p, li {
-   collor: #014141; 
+   color: #014141; 
    font-size: 14px;
 }
 
 /*Barra de navegação*/
 header, .navbar {
-    brackground-color: #918f8f;
+    background-color: #918f8f;
 }
 
 #nav-container {
